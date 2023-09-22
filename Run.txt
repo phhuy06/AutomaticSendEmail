@@ -1,0 +1,13 @@
+1: pip install requirements.txt
+
+2: Thay thế giá trị cho sender là tài khoản email gửi
+
+3: Bật xác thực 2 lớp cho tài khoản gmail https://support.google.com/accounts/answer/185839?hl=vi&co=GENIE.Platform%3DDesktop
+
+4: Tạo mật khẩu ứng dụng cho gmail là 1 dãy gồm 16 kí tự https://support.google.com/accounts/answer/185833
+
+5: Sử dụng mật khẩu ứng dụng đó thay thế giá trị cho password trong file .env
+
+6: Để thay đổi nội dung email: thay đổi giá trị header và body trong file .env (header là tiêu đề, body là nội dung mail)
+
+7: Phần body muốn xuống dòng, thêm \n (em chưa tìm ra cách hợp lý hơn)
