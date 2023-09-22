@@ -8,6 +8,9 @@
 
 5: Sử dụng mật khẩu ứng dụng đó thay thế giá trị cho password trong file .env
 
-6: Để thay đổi nội dung email: thay đổi giá trị header và body trong file .env (header là tiêu đề, body là nội dung mail)
+6: Để thay đổi nội dung email: thay đổi giá trị header và html trong file EmailSend.py (header là tiêu đề, html là nội dung mail)
 
-7: Phần body muốn xuống dòng, thêm \n (em chưa tìm ra cách hợp lý hơn)
+7: sửa file excel để điều chỉnh gửi mail cho ai, tên là gì, và SBD
+
+8: Run EmailSend.py file
+
